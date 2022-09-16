@@ -85,5 +85,19 @@ En este proyecto vamos a ver el uso de distintos patrones de diseño creacionale
 * No se refactoriza después de su creación.
 ## ABSTRACT FACTORY
 ### Conceptos
+* Es una factoria de factorias.
+* Factoria de objetos relacionados.
+* Interfaz común. 
+* Aplaza la creación de instancias a subclases.
+* Ejemplos:
+  * Document Builder (API XML Java). 
 ### Diseño
+* Agrupa factorias.
+* Responsable del ciclo de vida
+* Los objetos creados se referencia a través de una interfaz/contrato común.
+* Creacion a través de metodos parametrizados.
+* Composicion de objetos.
 ### Trampas
+* Complejo de implentar.
+* Patron que contiene otros patrones.
+* Empieza como el patron _Factory_ y acaba refactorizandose a _AbstractFactory_
